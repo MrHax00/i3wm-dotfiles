@@ -1,8 +1,15 @@
 # What is this?
 This is my first ever i3wm config!<br>
 I've been refining it for the past few months but having seen SwayFX and how much smoother SwayWM runs I've decided to publish what I've managed to make before switching over.<br>
-<br><b>BEWARE OF THE EDGE CASES!!</b><br>
-<sup>like the lock screen image not showing up if you have something full screened</sup>
+
+# BEWARE
+<b>BEWARE OF EDGE CASES!!</b><br>
+<sup>The lock screen image won't show up if you full screen something.</sup>
+<br>
+
+<b>BEWARE OF APRIL FOOLS STUFF</b><br>
+<sup>When the date is april first the bashrc file will inject a warning before every command and a watermark similar to the activate windows one will appear upon config reload.<br>
+these can be disabled by removing the apri first sections from .bashrc and i3/config files.</sup>
 
 # Screenshots:
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
@@ -55,5 +62,7 @@ I've been refining it for the past few months but having seen SwayFX and how muc
       </li>
     </ul>
   </li>
-  <li><b>Autotiling</b> (obv)</li>
+  <li><b>Autotiling</b> (if you don't know what Autotiling is you're missing out)</li>
+  <li><b>Activate-Linux</b> (for april first)</li>
+  <li><b>Kitty</b> (as the terminal)</li>
 </ul>
