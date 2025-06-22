@@ -20,8 +20,10 @@ these can be disabled by removing the apri first sections from .bashrc and i3/co
 <ul>
   <li><b>Picom</b> as the compositor (this adds rounded corners, transparency support, blur yata yata)</li>
   <li>
-    <b>Rofi</b> as the sound mixer/app launcher/app switcher
+    <b>Rofi</b> as the sound mixer/app launcher/app switcher/emoji picker/calculator
     <ul>
+      <li>Rofi-Calc</li>
+      <li>Rofi-Emoji</li>
       <li>
         The sound mixer script I wrote requires the following:
         <ul>
@@ -64,5 +66,5 @@ these can be disabled by removing the apri first sections from .bashrc and i3/co
   </li>
   <li><b>Autotiling</b> (if you don't know what Autotiling is you're missing out)</li>
   <li><b>Activate-Linux</b> (for april first)</li>
-  <li><b>Kitty</b> (as the terminal)</li>
+  <li><b>Kitty</b> (as the terminal (art by Nona/NotNona))</li>
 </ul>
