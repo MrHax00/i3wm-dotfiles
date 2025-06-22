@@ -1,0 +1,142 @@
+/*******************************************************************************
+ * ROFI Color theme
+ * User: MrHAX00
+ * Copyright: MrHAX00
+ *******************************************************************************/
+
+configuration {
+	volume-display-format: "{icon}{name}";
+	font: "JetBrainsMono Nerd Font Medium 8";
+	modi: "volume";
+	show-icons: true;
+	icon-theme: "Breeze-Dark";
+}
+
+@theme "/dev/null"
+
+* {
+	WindowBG: #1e1d24aa;
+	SelectedBG: #0b0b0f88;
+	Text: #eeeeff;
+	SecondaryBG: #0d0c12dd;
+	SearchAccent: #020104dd;
+	
+	Border: #06050Add;
+	BorderSize: 6px;
+	BorderSizeHalf: 4px;
+	
+	VolumeOn: #a3a3d988;
+
+	Transparent: #00000000;
+}
+
+window {
+	background-color: @WindowBG;
+	padding: 24px;
+	border-radius: @BorderSize;
+		
+	border: 0px 0px 3px 0px;
+	border-color: @Border;
+
+	
+	location: south east;
+	y-offset: -36px;
+	x-offset: -4px;
+	width: 30%;
+	//height: 40%;
+}
+
+mainbox {
+	border:  0;
+	padding: 0;
+	background-color: @Transparent;
+	children: [ listview ];
+}
+
+message, error-message {
+	border: 0;
+	border-color: #ff0000;
+	padding: 1px;
+	background-color: @Transparent;
+}
+
+textbox {
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+listview {
+	flow: vertical;
+	fixed-columns: true;
+	fixed-height: true;
+	columns: 6;
+	lines: 6;
+	spacing: -32px;
+	background-color: @Transparent;
+}
+
+element {
+	background-color: @Transparent;
+	orientation: vertical;
+	spacing: 8px;	
+	padding: 16px;
+}
+
+element-icon {
+	background-color: @Transparent;
+	size: 32px;
+}
+
+element-icon selected {
+	border: 0px 0px 3px 0px;
+	border-color: @Border;
+	border-radius: @BorderSize;
+	background-color: @SelectedBG;
+}
+
+element-text {
+	background-color: @Transparent;
+	text-color: @Text;
+	background-color: @Transparent;
+	horizontal-align: 0.5;
+}
+
+inputbar {
+	border: 0px 0px 3px 0px;
+	border-color: @SearchAccent;
+	border-radius: @BorderSizeHalf;
+	spacing: 0;
+	text-color: @Text;
+	padding: 8px;
+	background-color: @SecondaryBG;
+	margin: 0 0 32px 0;
+}
+
+case-indicator {
+	spacing: 0;
+	text-color: @Text;
+}
+
+entry {
+	spacing: 0;
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+prompt {
+	spacing: 0;
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+inputbar {
+	children: [ prompt,textbox-prompt-colon,entry ];
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0px 0.3em 0em 0em;
+	text-color: @Text;
+	background-color: @Transparent;
+}

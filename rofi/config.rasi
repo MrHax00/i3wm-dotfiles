@@ -1,0 +1,151 @@
+/*******************************************************************************
+ * ROFI Color theme
+ * User: MrHAX00
+ * Copyright: MrHAX00
+ *******************************************************************************/
+
+configuration {
+	display-drun: "  ";
+	display-run: " ";
+	display-window: "↹";
+	drun-display-format: "{icon}{name}";
+	font: "JetBrainsMono Nerd Font Medium 8";
+	modi: "window,run,drun";
+	show-icons: true;
+	icon-theme: "Breeze-Dark";
+
+	drun {
+		scan-desktop: true;
+		parse-user: false;
+		parse-system: false;
+	}
+}
+
+@theme "/dev/null"
+
+* {
+	WindowBG: #1e1d24aa;
+	SelectedBG: #0b0b0f88;
+	Text: #eeeeff;
+	SecondaryBG: #0d0c12dd;
+	SearchAccent: #020104dd;
+	
+	Border: #06050Add;
+	BorderSize: 6px;
+	BorderSizeHalf: 4px;
+	
+	Transparent: #00000000;
+}
+
+window {
+	background-color: @WindowBG;
+	padding: 32px;
+	border-radius: @BorderSize;
+		
+	border: 0px 0px 3px 0px;
+	border-color: @Border;
+
+	width: 40%;
+	//height: 40%;
+}
+
+mainbox {
+	border:  0;
+	padding: 0;
+	background-color: @Transparent;
+}
+
+message, error-message {
+	border: 0;
+	border-color: #ff0000;
+	padding: 1px;
+	background-color: @Transparent;
+}
+
+textbox {
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+listview {
+	flow: horizontal;
+	fixed-columns: true;
+	fixed-height: true;
+	columns: 5;
+	lines: 3;
+	spacing: 32px;
+	background-color: @Transparent;
+}
+
+element {
+	border: 0;
+	background-color: @Transparent;
+	orientation: vertical;
+	spacing: 8px;	
+	padding: 8px;
+}
+
+element selected {
+	background-color: @SelectedBG;
+	border-radius: @BorderSize;
+
+	border: 0px 0px 3px 0px;
+	border-color: @Border;
+}
+
+element-icon {
+	background-color: @Transparent;
+	size: 48px;
+}
+
+element-icon selected {
+	border: 0px 0px 3px 0px;
+	border-color: transparent;
+}
+
+element-text {
+	background-color: @Transparent;
+	text-color: @Text;
+	background-color: @Transparent;
+	horizontal-align: 0.5;
+}
+
+inputbar {
+	border: 0px 0px 3px 0px;
+	border-color: @SearchAccent;
+	border-radius: @BorderSizeHalf;
+	spacing: 0;
+	text-color: @Text;
+	padding: 8px;
+	background-color: @SecondaryBG;
+	margin: 0 0 32px 0;
+}
+
+case-indicator {
+	spacing: 0;
+	text-color: @Text;
+}
+
+entry {
+	spacing: 0;
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+prompt {
+	spacing: 0;
+	text-color: @Text;
+	background-color: @Transparent;
+}
+
+inputbar {
+	children: [ prompt,textbox-prompt-colon,entry ];
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0px 0.3em 0em 0em;
+	text-color: @Text;
+	background-color: @Transparent;
+}
