@@ -2,7 +2,12 @@
 This is my first ever i3wm config!<br>
 I've been refining it for the past few months but having seen swayfx and how much smoother it runs I've decided to publish what I've managed to make before switching over.<br>
 <br><b>BEWARE OF THE EDGE CASES!!</b><br>
-<sup>like the lock screen image not showing up if you have somethng full screened</sup>
+<sup>like the lock screen image not showing up if you have something full screened</sup>
+
+# Screenshots:
+![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
+![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231528.png?raw=true)
+![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
 
 # What you need:
 <ul>
