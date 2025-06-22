@@ -1,6 +1,6 @@
 # What is this?
 This is my first ever i3wm config!<br>
-I've been refining it for the past few months but having seen swayfx and how much smoother it runs I've decided to publish what I've managed to make before switching over.<br>
+I've been refining it for the past few months but having seen SwayFX and how much smoother SwayWM runs I've decided to publish what I've managed to make before switching over.<br>
 <br><b>BEWARE OF THE EDGE CASES!!</b><br>
 <sup>like the lock screen image not showing up if you have something full screened</sup>
 
