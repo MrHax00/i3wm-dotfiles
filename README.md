@@ -14,7 +14,7 @@ These can be disabled by removing the apri first sections from .bashrc and i3/co
 # Screenshots:
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231528.png?raw=true)
-![](https://github.com/MrHax00/i3wm-dotfiles/Config/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
+![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
 
 # What you need:
 <ul>
