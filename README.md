@@ -5,9 +5,9 @@ I've been refining it for the past few months but having seen swayfx and how muc
 <sup>like the lock screen image not showing up if you have something full screened</sup>
 
 # Screenshots:
-![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
-![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231528.png?raw=true)
-![](https://github.com/MrHax00/i3wmConfig/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
+![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
+![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231528.png?raw=true)
+![](https://github.com/MrHax00/i3wm-dotfilesConfig/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
 
 # What you need:
 <ul>
