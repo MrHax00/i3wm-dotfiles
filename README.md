@@ -65,7 +65,7 @@ Once you've installed all the dependencies below put the following files into th
     </ul>
   </li>
   <li>
-    <b>MPV</b> (for the animated wallpaper)
+    <b>MPV</b> for the animated wallpaper
     <ul>
       <li>
         The wall paper script requires the following:
@@ -77,6 +77,8 @@ Once you've installed all the dependencies below put the following files into th
     </ul>
   </li>
   <li><b>Autotiling</b> (if you don't know what Autotiling is you're missing out)</li>
-  <li><b>Activate-Linux</b> (for april first)</li>
-  <li><b>Kitty</b> (as the terminal (art by Nona/NotNona))</li>
+  <li><b>Activate-Linux</b> for april first</li>
+  <li><b>Kitty</b> as the terminal (art by Nona/NotNona)</li>
+  <li><b>JetBrains Mono</b> as the terminal font etc.</li>
+  <li><b>FontAwesome</b> for workspace icons etc.</li>
 </ul>
