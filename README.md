@@ -9,7 +9,7 @@ I've been refining it for the past few months but having seen SwayFX and how muc
 
 <b>BEWARE OF APRIL FOOLS STUFF</b><br>
 <sup>When the date is april first the bashrc file will inject a warning before every command and a watermark similar to the activate windows one will appear upon config reload.<br>
-These can be disabled by removing the apri first sections from .bashrc and i3/config files.</sup>
+These can be disabled by removing the april first sections from .bashrc and i3/config files.</sup>
 
 # Screenshots:
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231022.png?raw=true)
