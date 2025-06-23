@@ -33,8 +33,8 @@ Once you've installed all the dependencies below put the following files into th
   <li>
     <b>Rofi</b> as the sound mixer/app launcher/app switcher/emoji picker/calculator
     <ul>
-      <li>Rofi-Calc</li>
-      <li>Rofi-Emoji</li>
+      <li><b>Rofi-Calc</b></li>
+      <li><b>Rofi-Emoji</b></li>
       <li>
         The sound mixer script I wrote requires the following:
         <ul>
