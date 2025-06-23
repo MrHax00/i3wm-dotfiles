@@ -16,9 +16,20 @@ These can be disabled by removing the apri first sections from .bashrc and i3/co
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231528.png?raw=true)
 ![](https://github.com/MrHax00/i3wm-dotfiles/blob/main/Screenshots/Screenshot_20250622_231710.png?raw=true)
 
+# How to setup:
+Once you've installed all the dependencies below put the following files into the following places:
+<ul>
+  <li><b>.bashrc</b>: your home directory</li>
+  <li><b>Bashrc</b>: your home directory</li>
+  <li><b>i3</b>: ~/.config/</li>
+  <li><b>kitty</b>: ~/.config/</li>
+  <li><b>rofi</b>: ~/.config/</li>
+  <li><b>picom.conf</b>: ~/.config/</li>
+</ul>
+
 # What you need:
 <ul>
-  <li><b>Picom</b> as the compositor (this adds rounded corners, transparency support, blur yata yata)</li>
+  <li><b>Picom</b> as the compositor (this adds rounded corners, transparency support, blur, animations yata yata)</li>
   <li>
     <b>Rofi</b> as the sound mixer/app launcher/app switcher/emoji picker/calculator
     <ul>
